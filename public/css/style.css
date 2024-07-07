@@ -1,0 +1,114 @@
+/* Add your CSS here to match the design */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about-hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222222;
+}
+
+.about-hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-section .content img {
+    height: 100px;
+    width: 100px;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.team-member {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #111111;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333333;
+    padding-top: 10px;
+}
+
+/* Add more styles as needed */
